@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="bg-red-100 p-5">
+            <ul class="list-none flex md:space-x-4 sm:space-x-8 p-4 font-medium">
+            <li class=" hover:text-red-600"><a href="./index.html">Home</a></li>
+            <li class=" hover:text-red-600"><a href="./Category.html">Category</a></li>
+            <li class=" hover:text-red-600"><a href="./contact.html">Contact</a></li>
+            <li class=" hover:text-red-600"><a href="./product.html">Product</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="flex flex-col h-screen justify-center items-center">
+        <div class="max-w-[500px] max-h-[500px] gap-2 rounded-xl shadow-lg p-10 m-80">
+            <h2 class="text-4xl font-semibold leading-7 text-gray-900">Get in touch</h2>
+            <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                <div class="sm:col-span-3">
+                    <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">Your name (required)</label>
+                    <div class="mt-2">
+                        <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 px-12 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-gray-600 sm:text-sm sm:leading-6">
+                    </div>
+                </div>
+    
+                <div class="sm:col-span-3">
+                    <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900">Email address (required)</label>
+                    <div class="mt-2">
+                        <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 py-1.5 px-20 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-gray-600 sm:text-sm sm:leading-6">
+                    </div>
+                </div>
+    
+                <div class="sm:col-span-4">
+                    <label for="subject" class="block text-sm font-medium leading-6 text-gray-900">Subject (required)</label>
+                    <div class="mt-2">
+                        <input id="subject" name="subject" type="text" autocomplete="subject" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-gray-600 sm:text-sm sm:leading-6">
+                    </div>
+                </div>
+    
+                <div class="sm:col-span-6">
+                    <label for="message" class="block text-sm font-medium leading-6 text-gray-900">Message (required)</label>
+                    <div class="mt-2">
+                        <input id="message" name="message" type="text" autocomplete="message" class="block w-full rounded-md border-0 py-8 px-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-gray-600 sm:text-sm sm:leading-6">
+                    </div>
+                </div>
+            </div>
+            <button class="font-normal mt-2 border border-white p-3 rounded-md mx-auto text-center bg-black text-white">Send Message</button>
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>
